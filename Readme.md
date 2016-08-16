@@ -16,4 +16,7 @@ Makefile--OpenWrtÖØÃüÃûMakefileÎª·ÅÔÚpackage/scutclientÖĞ£¨Ã»ÓĞ¸ÃscutclientÎÄ¼ş¼
 
 ×îºó±£´æÍË³öºó£¬¿ÉÒÔÔËĞĞmake package/scutclient/compile V=s½øĞĞ±àÒëscutclient
 
-ipk°ü»á³öÏÖÔÚOpenwrt±àÒë¸ùÄ¿Â¼µÄbinÎÄ¼ş¼ĞÖĞ
+ipk°ü»á³öÏÖÔÚOpenwrt±àÒë¸ùÄ¿Â¼µÄbinÎÄ¼ş¼ĞÖĞ  
+¿ÉÄÜ±¨´íÔ­Òò£ºconfigureÎŞÖ´ĞĞÈ¨ÏŞ  
+PKG_SOURCE_VERSION×ÔĞĞ¸ÄÎª×î½üµÄcommit id  
+
