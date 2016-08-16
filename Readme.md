@@ -5,7 +5,7 @@ scutclient
 --------
 
 编译校园网客户端到OpenWrt中  
-这个是Fork了https://github.com/scutclient/scutclient上的   
+这个是Fork了[这里](https://github.com/scutclient/scutclient)   
 
 编译方法
 --------
