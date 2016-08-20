@@ -17,10 +17,15 @@ end
 
 
 function get_client_status(exec_name)
-	return luci.sys.call("pidof "..exec_name.." >/dev/null")
-		and translate("没有运行")
-		or  translate("正在运行")
+	local s = nil
+	s = string.find(luci.sys.exec("ps|grep scutclient|grep -v grep"), "scutclient")
+	if s == nil then
+		return translate("没有运行")
+	else
+		return translate("正在运行") 
+	end
 end
+
 
 
 -- Wi-Fi
